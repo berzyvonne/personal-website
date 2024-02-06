@@ -1,0 +1,33 @@
+* {
+  font-family: Arial;
+  background-color: rgba(248, 248, 247, 0.608);
+}
+
+/* Name */
+h1 {
+  color: cadetblue;
+  text-align: center;
+  border: 1px solid cadetblue;
+  padding: 10px;
+  margin: 4px;
+}
+
+/* Home, About, Portfolio */
+nav {
+  text-align: right;
+  padding: 11px;
+  margin: 4px;
+
+}
+
+a:link {
+  color: rgb(2, 87, 87);
+}
+
+a:visited {
+  color: darkseagreen;
+}
+
+a:hover {
+  color: darkgoldenrod;
+}
