@@ -1,23 +1,15 @@
 * {
   font-family: Arial;
-  background-color: rgba(248, 248, 247, 0.608);
+  background-color: rgba(182, 182, 158, 0.608);
 }
 
 /* Name */
-h1 {
-  color: cadetblue;
+nav {
+  color: rgb(2, 87, 87);
   text-align: center;
-  border: 1px solid cadetblue;
+  border: 1px solid rgb(2, 87, 87);
   padding: 10px;
   margin: 4px;
-}
-
-/* Home, About, Portfolio */
-nav {
-  text-align: right;
-  padding: 11px;
-  margin: 4px;
-
 }
 
 a:link {
@@ -25,9 +17,25 @@ a:link {
 }
 
 a:visited {
-  color: darkseagreen;
+  color: rgb(58, 132, 58);
 }
 
 a:hover {
   color: darkgoldenrod;
+}
+
+h2 {
+color: rgb(48, 72, 59);
+}
+
+img {
+  width: 250px;
+  margin: 4px;
+  padding: 10px;
+  float: right;
+}
+
+p {
+  margin: 4px;
+  color:darkolivegreen
 }
