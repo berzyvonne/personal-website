@@ -1,6 +1,6 @@
 * {
   font-family: Arial;
-  background-color: rgba(182, 182, 158, 0.608);
+  box-sizing: border-box;
 }
 
 /* Name */
@@ -26,6 +26,7 @@ a:hover {
 
 h2 {
 color: rgb(48, 72, 59);
+margin: 15px;
 }
 
 img {
@@ -37,5 +38,32 @@ img {
 
 p {
   margin: 4px;
-  color:darkolivegreen
+  color:darkolivegreen;
+  height: 250px;
+  text-align: end;
 }
+
+.grid-container {
+  display: grid;
+  gap: 50px; 100px;
+  justify-content: space-evenly;
+}
+
+.grid-container img {
+  width: 250px;
+  margin: 4px;
+  padding: 10px;
+  float: right;
+}
+
+.grid-container p {
+  margin: 4px;
+  color:darkolivegreen;
+  height: 250px;
+  text-align: end;
+}
+
+form {
+  margin: 30px; 20px;
+}
+

@@ -1,5 +1,5 @@
 // "Hello World" alert
 
-const str= "Hello World"
-alert(str)
+// const str= "Hello World"
+// alert(str)
 
