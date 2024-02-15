@@ -45,7 +45,7 @@ p {
 
 .grid-container {
   display: grid;
-  gap: 50px; 100px;
+  gap: 50px, 100px;
   justify-content: space-evenly;
 }
 
@@ -64,6 +64,23 @@ p {
 }
 
 form {
-  margin: 30px; 20px;
+  margin: 40px;
+  float: center;
 }
 
+#travel {
+  float: left;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#running {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
+}
+
+#piano {
+  float: left;
+}
