@@ -1,0 +1,102 @@
+* {
+  font-family: Geneva;
+  box-sizing: border-box;
+  
+}
+
+/* Name */
+nav {
+  color: rgb(2, 87, 87);
+  text-align: right;
+  border: 1px dotted rgb(2, 87, 87);
+  padding: 100px;
+  margin: 4px;
+  font-size: 1.2em;
+  background: url("./images/the-great-wave.jpeg") center/cover no-repeat fixed;
+}
+
+body{
+  background-color: rgba(250, 235, 215, 0.593);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  justify-content: end;
+  align-content: right;
+}
+
+a:link {
+  color: rgb(2, 87, 87);
+}
+
+a:visited {
+  color: rgb(58, 132, 58);
+}
+
+a:hover {
+  color: darkgoldenrod;
+}
+
+h2 {
+  color: rgb(48, 72, 59);
+  margin: 15px;
+}
+
+img {
+  width: 250px;
+  margin: 4px;
+  padding: 10px;
+  float: right;
+  border-radius: 10%;
+}
+
+p {
+  margin: 4px;
+  color: darkolivegreen;
+  height: 250px;
+  text-align: justify;
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px, 100px;
+  justify-content: space-evenly;
+}
+
+.grid-container img {
+  width: 250px;
+  margin: 4px;
+  padding: 10px;
+  float: right;
+}
+
+.grid-container p {
+  margin: 4px;
+  color: darkolivegreen;
+  height: 250px;
+  text-align: end;
+}
+
+form {
+  margin: 40px;
+  float: center;
+}
+
+#travel {
+  float: left;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#running {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
+}
+
+#piano {
+  float: left;
+}
