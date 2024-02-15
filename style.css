@@ -6,20 +6,21 @@
 /* Name */
 nav {
   color: rgb(2, 87, 87);
-  text-align: center;
+  text-align: right;
   border: 1px dotted rgb(2, 87, 87);
-  padding: 10px;
+  padding: 100px;
   margin: 4px;
   font-size: 1.2em;
+  background: url("./images/the-great-wave.jpeg") center/cover no-repeat fixed;
 
 }
 
 .flex {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 position: sticky;
-justify-content: space-between;
-align-content: center;
+justify-content: end;
+align-content: right;
 }
 
 
@@ -52,7 +53,7 @@ p {
   margin: 4px;
   color:darkolivegreen;
   height: 250px;
-  text-align: end;
+  text-align: justify;
 }
 
 .grid-container {
