@@ -12,17 +12,15 @@ nav {
   margin: 4px;
   font-size: 1.2em;
   background: url("./images/the-great-wave.jpeg") center/cover no-repeat fixed;
-
 }
 
 .flex {
-display: flex;
-flex-direction: column;
-position: sticky;
-justify-content: end;
-align-content: right;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  justify-content: end;
+  align-content: right;
 }
-
 
 a:link {
   color: rgb(2, 87, 87);
@@ -37,8 +35,8 @@ a:hover {
 }
 
 h2 {
-color: rgb(48, 72, 59);
-margin: 15px;
+  color: rgb(48, 72, 59);
+  margin: 15px;
 }
 
 img {
@@ -51,7 +49,7 @@ img {
 
 p {
   margin: 4px;
-  color:darkolivegreen;
+  color: darkolivegreen;
   height: 250px;
   text-align: justify;
 }
@@ -71,7 +69,7 @@ p {
 
 .grid-container p {
   margin: 4px;
-  color:darkolivegreen;
+  color: darkolivegreen;
   height: 250px;
   text-align: end;
 }
@@ -79,7 +77,6 @@ p {
 form {
   margin: 40px;
   float: center;
-  
 }
 
 #travel {
